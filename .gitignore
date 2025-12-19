@@ -1,0 +1,25 @@
+# MATLAB & Simulink
+*.asv
+*.m~
+*.slx.autosave
+/html/
+slprj/
+sccprj/
+codegen/
+octave-workspace
+*.mex*
+
+# Heavy MATLAB Data & Large Files
+*.mat
+*.fig
+*.log
+
+# Personal Audio Recordings (Prevents pushing your voice password to public repos)
+*.wav
+*.mp3
+*.m4a
+
+# VS Code & Windows clutter
+.vscode/
+Thumbs.db
+desktop.ini
