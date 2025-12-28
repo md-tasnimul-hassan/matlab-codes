@@ -23,4 +23,4 @@ xq = linspace(min(x), max(x), 1000);
 yq = polyval(p, xq);
 plot(x, y, "o", LineWidth=2); hold on; plot(xq, yq, LineWidth=2);
 title("Lagrange's Interpolation");
-legend("Datapoints", "Interpolated graph");
+legend("Datapoints", "Interpolated curve");
